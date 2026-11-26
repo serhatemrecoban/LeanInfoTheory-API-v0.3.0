@@ -1,7 +1,7 @@
 {
-  "api_attestation_sha256": "7b957bd35231d244c7a9046d6eb3f45df9c77463b14f553f34303a9a53fd3bf1",
-  "api_raw_sha256": "c6b0b134a798bdcfe4dd44088456b390c285d9a7651ce247db922e9106250412",
-  "api_stage_sha256": "62bfaa4a2c0ca84d2cfaf85f8483e5cb9b464de371ae6cc236f848fa74491b62",
+  "api_attestation_sha256": "07ba93f3e5be65337b1884d6995b5cbf700b02892cb2b85b184bee9f314fc29d",
+  "api_raw_sha256": "037dc58ba7bc81ca74449648d18b5e54ced1ab0d02be7316cf9ce8719dc69449",
+  "api_stage_sha256": "b8d99fbe60da4bbe0a277563ca91e47d81a675b82622ec435e846eb6425d520a",
   "historical": {
     "v0.1.0": {
       "sha256": "cb58864f20938cde83cffae0b230f654135bb3ffa68c4fba489cc6a834d4566f",
@@ -65,9 +65,9 @@
       "sha256": "bd7c79fe8d0404faa656ca63e8f352c2fa1c207d6091cd3e032a8ad9798b0b87"
     },
     "LeanInfoTheory-API-v0.3.0": {
-      "bytes": 663240503,
+      "bytes": 663237914,
       "files": 5596,
-      "sha256": "7be98477c077a6499f63ae1addd1e7fdd2942c1c675fb2ea8819123d8d8f08a8"
+      "sha256": "30ff27706386cc72e9ef77dc73acacba6393905ca8141644287555f5c200fc0b"
     }
   },
   "source": "d12af2d34d49ee493f55c8924cebff815b2953be",

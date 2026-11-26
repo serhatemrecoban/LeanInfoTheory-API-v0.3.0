@@ -1,5 +1,5 @@
 {
-  "bytes": 663240503,
+  "bytes": 663237914,
   "file_count": 5596,
   "files": {
     ".nojekyll": {
@@ -22300,7 +22300,7 @@
     },
     "v0.3.0/leaninfotheory-stage.json": {
       "bytes": 524,
-      "sha256": "62bfaa4a2c0ca84d2cfaf85f8483e5cb9b464de371ae6cc236f848fa74491b62"
+      "sha256": "b8d99fbe60da4bbe0a277563ca91e47d81a675b82622ec435e846eb6425d520a"
     },
     "v0.3.0/licenses/LeanSearchClient-LICENSE.txt": {
       "bytes": 11357,
@@ -22331,12 +22331,12 @@
       "sha256": "9bb32dd1de351297d59e6b04d6d195bca41db24da3b0246e6659b5093beed844"
     },
     "v0.3.0/licenses/lean4-LICENSE.txt": {
-      "bytes": 9231,
-      "sha256": "e872b4a399a9cd078babf679143a42d6277bc1ee152b6e286ea95b4cee8e227f"
+      "bytes": 9160,
+      "sha256": "8b28515ffffc5c0fe2807d8ae3735b00b324d9b7ce807dd63ff6ac8922fbce7e"
     },
     "v0.3.0/licenses/lean4-LICENSES.txt": {
-      "bytes": 83431,
-      "sha256": "36d0568a131a975aa466e9e48e2af983e67a6607674b0ed536ea13141e7dbeb8"
+      "bytes": 81854,
+      "sha256": "00cce2ac071f63d470a287438a7c6bbc4334706be244384e9af4fc9ead11cdce"
     },
     "v0.3.0/licenses/mathlib-LICENSE.txt": {
       "bytes": 11357,
@@ -22359,8 +22359,8 @@
       "sha256": "9f22618a7fa1279853691ab158b4582befe4a7e58ae8e31d0fffe2490dfd5096"
     },
     "v0.3.0/navbar.html": {
-      "bytes": 579624,
-      "sha256": "810569329789246193dbf905d01017f5e0bd11d2e7b0119d99bca1afa6b36f6a"
+      "bytes": 578683,
+      "sha256": "a5030f257673c6bab5c875397b00f0c7862d4baf2ea1b08069238249f45e9c06"
     },
     "v0.3.0/references.bib": {
       "bytes": 0,
@@ -22391,6 +22391,6 @@
   "schema": "lean-info-theory.pages-file-manifest.v1",
   "site": "LeanInfoTheory-API-v0.3.0",
   "source": "d12af2d34d49ee493f55c8924cebff815b2953be",
-  "tar_sha256": "69279c72f8515ad9cab442fc5a00328ff8004eedb409f1b594cd237144b416b8",
-  "tree_sha256": "7be98477c077a6499f63ae1addd1e7fdd2942c1c675fb2ea8819123d8d8f08a8"
+  "tar_sha256": "f9ad1e4a1818f2553cfeab0d7581d8be1687b2b6f00243fb2d2799f5e5a5b50d",
+  "tree_sha256": "30ff27706386cc72e9ef77dc73acacba6393905ca8141644287555f5c200fc0b"
 }
