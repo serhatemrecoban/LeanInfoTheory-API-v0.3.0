@@ -13,35 +13,35 @@ jobs:
       - name: Retrieve and verify both archives at their permanent revision
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-          BUNDLES_REVISION: "9f3024400d2028bb9d2aa016f9ce9b7678012026"
+          BUNDLES_REVISION: "8bea3423019cb848670b87cf9bdd7765bf404495"
         run: |
           set -euo pipefail
           case "$GITHUB_REPOSITORY" in
             serhatemrecoban/LeanInfoTheory-API-v0.3.0)
               test "$GITHUB_REF" = "refs/heads/$DEFAULT_BRANCH" ;;
             serhatemrecoban/LeanInfoTheory)
-              test "$GITHUB_REF" = "refs/heads/codex/v0.3.0-bundle-verification" ;;
+              test "$GITHUB_REF" = "refs/heads/codex/v0.3.0-linux-bundle-verification" ;;
             *) exit 1 ;;
           esac
           cat > "$RUNNER_TEMP/qualification.json" <<'PINS'
           {
             "archives": {
               "api": {
-                "file_manifest_sha256": "e51e5c276d913e021d7f2717fac9c60175b583b447b7d20757abbe13acade12e",
+                "file_manifest_sha256": "324f408c314014e72c3609c5719fd7f304af4ee8514c4a1d95592f19de7e0c07",
                 "tar_bytes": 667535360,
-                "tar_sha256": "69279c72f8515ad9cab442fc5a00328ff8004eedb409f1b594cd237144b416b8",
-                "zip_bytes": 29636236,
-                "zip_sha256": "b1ffa823b99baf65c73c5cdba14c1efd572e166a7d9819ac1ef06857b9cdf96d"
+                "tar_sha256": "f9ad1e4a1818f2553cfeab0d7581d8be1687b2b6f00243fb2d2799f5e5a5b50d",
+                "zip_bytes": 31049441,
+                "zip_sha256": "6f4c6ee4aff71318d3d21ddf975fe9af222f73522d88157ab6ae5691311aedee"
               },
               "main": {
                 "file_manifest_sha256": "0d5454fd2f6466a69b65ee2fab6310119377ddbe2662d493628015d6a474b747",
                 "tar_bytes": 666081280,
                 "tar_sha256": "a035fd367a68b89aca7418e71f301dcd7ca59a83367422e99bd2e5f518a2e05e",
-                "zip_bytes": 29662815,
-                "zip_sha256": "fb98b734ac4c26a12fab0d9768ba0f6348b146cca49f08a816fc189571aa9e30"
+                "zip_bytes": 31072283,
+                "zip_sha256": "4a2dc743322e899ca8931bd0039a6427ac2d598eae1b86677271ae37dd817bef"
               }
             },
-            "receipt_sha256": "69428e89e2c4b549075a549db1bc6787e161d3324a6d715914f08eb2052647af",
+            "receipt_sha256": "7a096965f8c83fc97f49ac9634fe09fc9aeef42e9fa46b2bc309458bd07fda18",
             "source": "d12af2d34d49ee493f55c8924cebff815b2953be",
             "source_tree": "255afd15f8935a73e62bbaecadff6e7c2ed93399"
           }
