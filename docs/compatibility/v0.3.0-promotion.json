@@ -1,0 +1,22 @@
+{
+  "annotated_tag": "0ecd9fe98bdd3712da4469a5fa81d2893c202cb6",
+  "archives": {
+    "api": {
+      "file_manifest_sha256": "324f408c314014e72c3609c5719fd7f304af4ee8514c4a1d95592f19de7e0c07",
+      "tar_bytes": 667535360,
+      "tar_sha256": "f9ad1e4a1818f2553cfeab0d7581d8be1687b2b6f00243fb2d2799f5e5a5b50d",
+      "zip_bytes": 31049441,
+      "zip_sha256": "6f4c6ee4aff71318d3d21ddf975fe9af222f73522d88157ab6ae5691311aedee"
+    },
+    "main": {
+      "file_manifest_sha256": "0d5454fd2f6466a69b65ee2fab6310119377ddbe2662d493628015d6a474b747",
+      "tar_bytes": 666081280,
+      "tar_sha256": "a035fd367a68b89aca7418e71f301dcd7ca59a83367422e99bd2e5f518a2e05e",
+      "zip_bytes": 31072283,
+      "zip_sha256": "4a2dc743322e899ca8931bd0039a6427ac2d598eae1b86677271ae37dd817bef"
+    }
+  },
+  "bundles_revision": "8bea3423019cb848670b87cf9bdd7765bf404495",
+  "receipt_sha256": "7a096965f8c83fc97f49ac9634fe09fc9aeef42e9fa46b2bc309458bd07fda18",
+  "release_commit": "d12af2d34d49ee493f55c8924cebff815b2953be"
+}
