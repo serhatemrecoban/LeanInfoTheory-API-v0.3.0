@@ -1,0 +1,75 @@
+{
+  "api_attestation_sha256": "7b957bd35231d244c7a9046d6eb3f45df9c77463b14f553f34303a9a53fd3bf1",
+  "api_raw_sha256": "c6b0b134a798bdcfe4dd44088456b390c285d9a7651ce247db922e9106250412",
+  "api_stage_sha256": "62bfaa4a2c0ca84d2cfaf85f8483e5cb9b464de371ae6cc236f848fa74491b62",
+  "historical": {
+    "v0.1.0": {
+      "sha256": "cb58864f20938cde83cffae0b230f654135bb3ffa68c4fba489cc6a834d4566f",
+      "source": "0bef5ef5124d7c33afc1aaed8d4f34a1c3a5ce8f"
+    },
+    "v0.2.0": {
+      "sha256": "7a38bc64cbe7ab2ae053b8ac53f0db87443ee50af076a55d96eb1ffadb63c549",
+      "site_sha256": "bd7c79fe8d0404faa656ca63e8f352c2fa1c207d6091cd3e032a8ad9798b0b87",
+      "source": "953b785fbdbcc9bffe22834124d5e1cbd14a4835"
+    }
+  },
+  "navigation": {
+    "featured_theorems": [
+      "LeanInfoTheory.Shannon.exists_blockChannelCode_errorProbability_le_of_infoDensityThreshold",
+      "LeanInfoTheory.Shannon.exists_sourceChannelCode_tendsto_errorProbability_zero",
+      "LeanInfoTheory.Shannon.iid_toOuterMeasure_typeClass",
+      "LeanInfoTheory.Shannon.isLUB_isAchievableRate",
+      "LeanInfoTheory.Shannon.optimalPrefixLength_iid_div_bounds",
+      "PMF.BinaryTest.exists_likelihoodThresholdTest"
+    ],
+    "html_pages": 16638,
+    "links": 9329039,
+    "reviewed_dependency_advisories": {
+      "v0.1.0": 111,
+      "v0.2.0": 110,
+      "v0.3.0": 110
+    },
+    "snapshots": {
+      "v0.1.0": {
+        "checked_source_ranges": 601,
+        "commit": "0bef5ef5124d7c33afc1aaed8d4f34a1c3a5ce8f",
+        "search_modules": 5498,
+        "search_results": 246158
+      },
+      "v0.2.0": {
+        "checked_source_ranges": 811,
+        "commit": "953b785fbdbcc9bffe22834124d5e1cbd14a4835",
+        "search_modules": 5531,
+        "search_results": 246607
+      },
+      "v0.3.0": {
+        "checked_source_ranges": 918,
+        "commit": "d12af2d34d49ee493f55c8924cebff815b2953be",
+        "search_modules": 5558,
+        "search_results": 246824
+      }
+    }
+  },
+  "purpose": "candidate",
+  "rehearsal_overlays": {},
+  "schema": "lean-info-theory.release3-pages.v1",
+  "sites": {
+    "LeanInfoTheory": {
+      "bytes": 661809244,
+      "files": 5563,
+      "sha256": "5b72f55cbe5a2a76d2ed24f5681d7127243e36e71fc96ec9e12e793a807161e2"
+    },
+    "LeanInfoTheory-API": {
+      "bytes": 662452623,
+      "files": 5569,
+      "sha256": "bd7c79fe8d0404faa656ca63e8f352c2fa1c207d6091cd3e032a8ad9798b0b87"
+    },
+    "LeanInfoTheory-API-v0.3.0": {
+      "bytes": 663240503,
+      "files": 5596,
+      "sha256": "7be98477c077a6499f63ae1addd1e7fdd2942c1c675fb2ea8819123d8d8f08a8"
+    }
+  },
+  "source": "d12af2d34d49ee493f55c8924cebff815b2953be",
+  "source_tree": "255afd15f8935a73e62bbaecadff6e7c2ed93399"
+}
